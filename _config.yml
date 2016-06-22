@@ -1,0 +1,11 @@
+# SEO settings
+title: WAH
+description: "WordPress Admin HTML for small project"
+keywords: "WordPress, theme, free, download, SEO, blog, web"
+url: https://basoro.github.io
+baseurl: "/wah"
+
+# Sass configuration
+sass:
+  sass_dir: scss
+  style: expanded # expanded or compressed

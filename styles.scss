@@ -1,0 +1,29 @@
+/**
+ * @author      Tayfun Erbilen
+ * @web         http://erbilen.net
+ * @mail        tayfunerbilen@gmail.com
+ */
+
+$basecolor: #0073aa;
+$hovercolor: #00b9eb;
+
+// reset
+@import "reset";
+
+// form elements
+@import "form";
+
+// font awesome
+@import "../vendor/font-awesome-4.5.0/css/font-awesome.min.css";
+
+// font
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,300,500,700&subset=latin,latin-ext');
+
+// login page
+@import "login";
+
+// login page
+@import "main";
+
+// responsive
+@import "responsive";
