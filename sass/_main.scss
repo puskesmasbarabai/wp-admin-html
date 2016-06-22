@@ -72,8 +72,7 @@ html, body {
 
 // sidebar
 .sidebar {
-  height:calc(100% - 32px);
-  height:-webkit-calc(100% - 32px);
+  height:100%;
   width: 180px;
   background: #23282d;
   box-sizing: border-box;
@@ -236,8 +235,7 @@ html, body {
 .content {
   padding: 15px 15px 15px 15px;
   box-sizing: border-box;
-  height:calc(100% - 32px);
-  height:-webkit-calc(100% - 32px);
+  height:100%;
   overflow: auto;
   
   .box-container {

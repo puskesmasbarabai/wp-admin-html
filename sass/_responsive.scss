@@ -1,26 +1,10 @@
-@media all and (max-width: 1300px) {
+@media all and (min-width: 901px) {
   .content {
     .box-container {
       &.container-25 {
         width: 50%;
       }
     }
-  }
-}
-
-@media all and (max-width: 1100px) {
-  .content {
-    .box-container {
-      width: 100% !important;
-    }
-  }
-  .post-content {
-    padding-right: 0 !important;
-    float: none !important;
-  }
-  .post-rightbar {
-    margin-left: 0 !important;
-    float: none !important;
   }
 }
 
@@ -46,11 +30,6 @@
       }
     }
   }
-  .content,
-  .sidebar {
-    height: calc(100% - 50px);
-    height: -webkit-calc(100% - 50px);
-  }
 
   .form.label {
     li {
@@ -70,6 +49,20 @@
         padding-left: 0;
       }
     }
+  }
+
+  .content {
+    .box-container {
+      width: 100% !important;
+    }
+  }
+  .post-content {
+    padding-right: 0 !important;
+    float: none !important;
+  }
+  .post-rightbar {
+    margin-left: 0 !important;
+    float: none !important;
   }
 
   .sidebar {
