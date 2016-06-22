@@ -1,4 +1,17 @@
 @media all and (min-width: 901px) {
+
+  .navbar {
+    > ul {
+      > li {
+        > a {
+          .fa-bars {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
   .content {
     .box-container {
       &.container-25 {
