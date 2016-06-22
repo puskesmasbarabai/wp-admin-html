@@ -60,13 +60,6 @@ $(function () {
 
     $('.collapse-menu').on('click', function (e) {
         $('.sidebar').toggleClass('fix');
-        if ($('.fa', this).hasClass('fa-arrow-circle-left')) {
-            $('.fa', this).removeClass('fa-arrow-circle-left').addClass('fa-arrow-circle-right');
-            localStorage.setItem('sidebar', true);
-        } else {
-            $('.fa', this).removeClass('fa-arrow-circle-right').addClass('fa-arrow-circle-left');
-            delete localStorage['sidebar'];
-        }
         e.preventDefault();
     });
     function sidebarCheck() {
