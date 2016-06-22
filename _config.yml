@@ -7,5 +7,5 @@ baseurl: "/wah"
 
 # Sass configuration
 sass:
-  sass_dir: scss
+  sass_dir: sass
   style: expanded # expanded or compressed
