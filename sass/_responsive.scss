@@ -74,6 +74,9 @@
 
   .sidebar {
     margin-left: -180px;
+    &.fix { 
+      margin-left: 0px;
+    }
   }
 
   .sidebar-xx {
