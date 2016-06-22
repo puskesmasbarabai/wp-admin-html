@@ -70,8 +70,4 @@ $(function () {
 
     sidebarCheck();
 
-    if ($('#editor').length) {
-        CKEDITOR.replace('editor');
-    }
-
 });
