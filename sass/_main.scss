@@ -73,7 +73,7 @@ html, body {
 // sidebar
 .sidebar {
   height:100%;
-  width: 180px;
+  width: 160px;
   background: #23282d;
   box-sizing: border-box;
   padding-top:12px;
@@ -158,23 +158,13 @@ html, body {
           width:100%;
         }
       }
-      &.divider {
-        line-height:10px;
-        padding-bottom: 10px;
-        span {
-          height:1px;
-          background-color: rgba(#23282d, .1);
-          display: inline-block;
-          width:100%;
-        }
-      }
       position: relative;
       .dropdown-menu {
         display: none;
         position: absolute;
         top:0;
-        left:180px;
-        width:160px;
+        left:160px;
+        width:140px;
         background-color: #32373c;
         padding: 10px 15px;
         &:before {
@@ -353,12 +343,6 @@ html, body {
     text-align: right;
   }
 
-}
-
-// ckeditor fix
-.cke_chrome {
-  border:1px solid #ddd;
-  box-shadow: 0 0 3px rgba(0,0,0,.05);
 }
 
 // pagination
