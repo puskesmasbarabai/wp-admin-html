@@ -79,36 +79,6 @@
     }
   }
 
-  .sidebar-xx {
-    width: 50px !important;;
-    .title {
-      display: none !important;;
-    }
-    .fa {
-      width: 50px !important;;
-      font-size: 20px !important;
-      text-indent: -3px !important;;
-    }
-    > ul {
-      > li {
-        > a {
-          padding: 5px 0 !important;;
-        }
-        .sub-menu {
-          display: none !important;;
-        }
-        .dropdown-menu {
-          left: 50px !important;;
-          &:before {
-            top: 15px !important;;
-          }
-        }
-      }
-    }
-    li.line, .collapse-menu {
-      display: none !important;
-    }
-  }
   .hide {
     display: none !important;
   }

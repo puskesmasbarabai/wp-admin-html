@@ -230,30 +230,6 @@ html, body {
       }
     }
   }
-  &.fix {
-    width:50px;
-    .title {
-      display: none;
-    }
-    .fa {
-      width:50px;
-      font-size:20px;
-      text-indent: -3px;
-    }
-    >ul {
-      >li {
-        >a {
-          padding:5px 0;
-        }
-        .dropdown-menu {
-          left:50px;
-          &:before {
-            top:15px;
-          }
-        }
-      }
-    }
-  }
 }
 
 // content
