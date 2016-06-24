@@ -11,11 +11,11 @@ $hovercolor: #00b9eb;
 // form elements
 @import "form";
 
-// font dashicons 
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
+// form elements
+@import "font-awesome";
 
-// font
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,300,500,700&subset=latin,latin-ext');
+// form elements
+@import "fira-sans";
 
 // login page
 @import "login";
