@@ -16,9 +16,11 @@
             display: none;
           }
         }
-        ul {
+        > ul {
           top:50px;
+          > li {
           width:100%;
+          }
         }
       }
     }
