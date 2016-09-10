@@ -16,13 +16,9 @@
             display: none;
           }
         }
-        > ul {
+        ul {
           top:50px;
-          > li {
-            > a {
-            width:100%;
-            }
-          }
+          min-width:100%;
         }
       }
     }
