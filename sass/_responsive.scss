@@ -19,7 +19,9 @@
         > ul {
           top:50px;
           > li {
-          width:100%;
+            > a {
+            width:100%;
+            }
           }
         }
       }
