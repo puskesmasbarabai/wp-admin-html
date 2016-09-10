@@ -1,8 +1,3 @@
-/**
- * @author      Tayfun Erbilen
- * @web         http://erbilen.net
- * @mail        tayfunerbilen@gmail.com
- */
 $(function () {
 
     $('.box >h3').append('<button type="button" class="toggle"><span class="fa fa-caret-up"></span></button>');
