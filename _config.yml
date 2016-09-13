@@ -3,9 +3,9 @@ title: WAH
 description: "WordPress Admin HTML for small project"
 keywords: "WordPress, theme, free, download, SEO, blog, web"
 url: https://basoro.github.io
-baseurl: "/wah"
+baseurl: "/wp-admin-html"
 
 # Sass configuration
 sass:
   sass_dir: sass
-  style: expanded # expanded or compressed
+  style: compressed # expanded or compressed
