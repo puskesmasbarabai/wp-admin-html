@@ -10,12 +10,7 @@
         color: #23282d;
         font-weight: bold;
         cursor: pointer;
-        &:hover {
-            color: #fff;
-            background-color: #e5e5e5;
-        }
         &.active {
-            color: #fff;
             background-color: #e5e5e5;
         }
     }
