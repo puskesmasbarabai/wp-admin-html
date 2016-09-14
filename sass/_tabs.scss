@@ -5,14 +5,14 @@
     border-bottom: 3px solid #d0d0d0;
     a {
         display: inline-block;
-        background-color: #d0d0d0;
+        background-color: #e5e5e5;
         padding: 10px 20px;
         margin-bottom: 0;
         color: #23282d;
         font-weight: bold;
         cursor: pointer;
         &.active {
-            background-color: #e5e5e5;
+            background-color: #d0d0d0;
         }
     }
 }
