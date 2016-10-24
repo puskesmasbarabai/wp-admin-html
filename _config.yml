@@ -8,4 +8,4 @@ baseurl: "/wp-admin-html"
 # Sass configuration
 sass:
   sass_dir: sass
-  style: compressed # expanded or compressed
+  style: expanded # expanded or compressed
